@@ -11,7 +11,7 @@ public class DBConnect {
             Class.forName("com.mysql.cj.jdbc.Driver"); // Load MySQL Driver
 
             // Connect to MySQL on Your PC (Replace with your actual IP)
-            String jdbcUrl = "jdbc:mysql://49.204.132.24:3306/hospital_2?useSSL=false&allowPublicKeyRetrieval=true";
+            String jdbcUrl = "jdbc:mysql://192.168.0.108:3306/hospital_2?useSSL=false&allowPublicKeyRetrieval=true";
             String dbUser = "root";
             String dbPass = "7860";
 
