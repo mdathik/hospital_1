@@ -10,10 +10,10 @@ public class DBConnect {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // Load MySQL Driver
 
-            // Replace with Railway Database Details
-            String jdbcUrl = "jdbc:mysql://mysql.railway.internal.railway.app:3306/railway?useSSL=false&allowPublicKeyRetrieval=true";
+            // Connect to MySQL on Your PC (Replace with your actual IP)
+            String jdbcUrl = "jdbc:mysql://49.204.132.24:3306/hospital_2?useSSL=false&allowPublicKeyRetrieval=true";
             String dbUser = "root";
-            String dbPass = "UvwGBUCZkCywMkpbsWtfBRPQNegfGRbT";
+            String dbPass = "7860";
 
             conn = DriverManager.getConnection(jdbcUrl, dbUser, dbPass);
 
